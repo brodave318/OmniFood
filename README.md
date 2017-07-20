@@ -1,1 +1,1 @@
-<h1>Create killer website 'OmniFood' from the course 'Build Responsive Real World Websites with HTML5 and CSS3' by Jonas Schmedtmann -- Udemy<1>
+<h1>Create the killer website 'OmniFood' from the course 'Build Responsive Real World Websites with HTML5 and CSS3' by Jonas Schmedtmann -- Udemy<h1>
