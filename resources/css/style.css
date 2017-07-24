@@ -1,7 +1,6 @@
 /* --------------------------------- */
 /* BASIC SETUP */
 /* --------------------------------- */
-
 * {
   margin: 0;
   padding: 0;
@@ -29,7 +28,6 @@ html {
 /* --------------------------------- */
 /* REUSABLE COMPONENTS */
 /* --------------------------------- */
-
 .row {
   max-width: 1140px;
   margin: 0 auto; 
@@ -44,7 +42,6 @@ section {
 }
 
 /* ----- HEADINGS ----- */
-
 h1,
 h2,
 h3 {  
@@ -85,7 +82,6 @@ h2:after {
 }
 
 /* ----- PARAGRAPHS ----- */
-
 .long-copy {
   line-height: 145%;
   width: 70%;
@@ -98,7 +94,6 @@ h2:after {
 }
 
 /* ----- ICONS ----- */
-
 .icon-big {
    font-size: 350%;
    display: block;
@@ -106,8 +101,36 @@ h2:after {
    margin-bottom: 10px;
 }
 
-/* ----- BUTTONS ----- */
+.icon-small {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color: #e67e22;
+  font-size: 120%;
+  margin-right: 10px;
+    
+  /* secrets to align text and icons */
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+/* ----- LINKS ----- */
+a:link,
+a:visited {
+  color: #e67e22;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #e67e22;
+  transition: border-bottom 0.2s, color 0.2s;
+}
 
+a:hover,
+a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
+}
+
+/* ----- BUTTONS ----- */
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -151,7 +174,6 @@ h2:after {
 /* --------------------------------- */
 /* HEADER */
 /* --------------------------------- */
-
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
   background-size: cover;
@@ -204,7 +226,6 @@ header {
 /* --------------------------------- */
 /* FEATURES */
 /* --------------------------------- */
-
 .section-features .long-copy {
   margin-bottom: 30px;
 }
@@ -212,7 +233,6 @@ header {
 /* --------------------------------- */
 /* MEALS */
 /* --------------------------------- */
-
 .section-meals {
   padding: 0;
 }
@@ -252,7 +272,6 @@ header {
 /* --------------------------------- */
 /* HOW IT WORKS */
 /* --------------------------------- */
-
 .section-steps {
   background: #f4f4f4;
 }
@@ -293,14 +312,33 @@ header {
   margin-right: 25px;
 }
 
+.btn-app:link,
+.btn-app:visited {
+  border: 0; 
+}
+
 .btn-app img {
   height: 50px;
   width: auto;
   margin-right: 10px;
 }
 
+/* --------------------------------- */
+/* CITIES */
+/* --------------------------------- */
+.box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
 
+.city-feature {
+  margin-bottom: 5px;
+}
 
+.icon-small {
+
+}
 
 
 
