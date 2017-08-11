@@ -64,7 +64,7 @@
   }
   
   .contact-form {
-    width: 80%;
+    width: 90%;
   }
 
 /* Small phones to small tablets: from 481 to 767px */
@@ -84,7 +84,7 @@
   
   .col {
     width: 100%;
-    margin: 0 0 4% 0;
+    margin: 0 0 2% 0;
   }
   
   .main-nav {
@@ -165,6 +165,30 @@
   
   .works-step:last-of-type {
     margin-bottom: 20px;
+  }
+  
+  .btns {
+    text-align: center;
+  }
+  
+  .map-box {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  .map {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .form-box {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
   }  
 }
 

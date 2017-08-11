@@ -59,7 +59,7 @@ $('.js--wp-4').waypoint(function(direction) {
   offset: '50%'
 });
 
-/* Mobile nav */
+/* Mobile navigation */
 $('.js--nav-icon').click(function() {
   var nav = $('.js--main-nav');
   var icon = $('.js--nav-icon i');
@@ -72,4 +72,21 @@ $('.js--nav-icon').click(function() {
     icon.addClass('ion-navicon-round');
     icon.removeClass('ion-close-round');
   }
+});
+
+/* Maps */
+  var map = new GMaps({
+    div: '.map',
+    lat: 32.6137391,
+    lng: -115.32,
+    zoom: 11
+  });
+  
+  map.addMarker({
+  lat: 32.6137391,
+  lng: -115.5203317,
+  title: 'Mexicali',
+  infoWindow: {
+  content: '<p>Our Mexicali HQ</p>'
+}
 });
